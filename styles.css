@@ -1,0 +1,52 @@
+
+/* Selectores básicos de etiqueta */
+body {
+    background-color: #1230b8; /* Un azul sólido */
+    color: #f1f1f1;            /* Blanco para el texto */
+    font-family: sans-serif;   /* Tipografía básica */
+}
+/* SELECTOR DE ID (Elemento único) */
+#titulo-principal {
+    font-size: 40px;
+    color: #ffae00e8; /* Dorado */
+    text-shadow: 2px 2px 4px #000000; /* Un toque de sombra para que resalte */
+}
+header {
+    background-color: #ffc300; /* Amarillo/Dorado */
+    color: #003566;            /* Texto azul para contrastar */
+    text-align: center;
+}
+h1 {
+    font-size: 36x;           /* Tamaño de texto */
+}
+nav {
+    background-color: #000000; /* Negro para la barra */
+    text-align: center;
+}
+/* Pseudoclase básica: la que permite cambiar el color al pasar el mouse */
+a {
+    color: #ffc300;
+    text-decoration: none;     /* Quita el subrayado */
+    font-weight: bold;
+}
+a:hover {
+    color: #ffffff;            /* Cambia a blanco al pasar el mouse */
+}
+main {
+    background-color: #201583; /* Fondo azul para el contenido */
+    color: #ecba13;            /* Texto amarillo para que se lea bien */
+}
+h2 {
+    color: #dfc119;
+    font-size: 24px;
+}
+footer {
+    background-color: #111111;
+    color: #aaaaaa;
+    text-align: center;
+}
+
+.imagen-resaltada {
+    display: block; /* Para que no se pegue al texto si no hay margen */
+    width: 400px;   /* Tamaño fijo (esto entra en Propiedades Frecuentes) */
+}
