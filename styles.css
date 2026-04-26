@@ -50,3 +50,18 @@ footer {
     display: block; /* Para que no se pegue al texto si no hay margen */
     width: 400px;   /* Tamaño fijo (esto entra en Propiedades Frecuentes) */
 }
+
+#pagina-de-la-receta{
+    background-color: #5a0001;
+    color: #f1f1f1;
+}
+
+#pagina-de-la-receta header{
+    background-color: #222;
+    color: #ffc300;
+}
+
+#pagina-de-la-receta ul, #pagina-de-la-receta ol {
+    background-color: #333333;
+    border: 2px solid #ffc300;
+}
