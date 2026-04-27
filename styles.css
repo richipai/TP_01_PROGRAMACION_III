@@ -1,45 +1,53 @@
 
-/* Selectores básicos de etiqueta */
 body {
-    background-color: #1230b8; /* Un azul sólido */
-    color: #f1f1f1;            /* Blanco para el texto */
-    font-family: sans-serif;   /* Tipografía básica */
+    background-color: #1230b8;
+    color: #f1f1f1;
+    font-family: sans-serif;
 }
-/* SELECTOR DE ID (Elemento único) */
+
 #titulo-principal {
     font-size: 40px;
-    color: #ffae00e8; /* Dorado */
-    text-shadow: 2px 2px 4px #000000; /* Un toque de sombra para que resalte */
+    color: #ffae00e8;
+    text-shadow: 2px 2px 4px #000000; /* sombrita para resaltar */
 }
+
 header {
-    background-color: #ffc300; /* Amarillo/Dorado */
-    color: #003566;            /* Texto azul para contrastar */
+    background-color: #ffc300;
+    color: #003566;
     text-align: center;
 }
+
 h1 {
-    font-size: 36x;           /* Tamaño de texto */
+    font-size: 36px; 
 }
+
 nav {
-    background-color: #000000; /* Negro para la barra */
+    background-color: #000000;
     text-align: center;
 }
-/* Pseudoclase básica: la que permite cambiar el color al pasar el mouse */
+
+/* sacar subrayado de los links */
 a {
     color: #ffc300;
-    text-decoration: none;     /* Quita el subrayado */
+    text-decoration: none;
     font-weight: bold;
 }
+
+/* efecto al pasar el mouse */
 a:hover {
-    color: #ffffff;            /* Cambia a blanco al pasar el mouse */
+    color: #ffffff;
 }
+
 main {
-    background-color: #201583; /* Fondo azul para el contenido */
-    color: #ecba13;            /* Texto amarillo para que se lea bien */
+    background-color: #201583;
+    color: #ecba13;
 }
+
 h2 {
     color: #dfc119;
     font-size: 24px;
 }
+
 footer {
     background-color: #111111;
     color: #aaaaaa;
@@ -47,16 +55,17 @@ footer {
 }
 
 .imagen-resaltada {
-    display: block; /* Para que no se pegue al texto si no hay margen */
-    width: 400px;   /* Tamaño fijo (esto entra en Propiedades Frecuentes) */
+    display: block; /* para que no se pegue al texto */
+    width: 400px;
 }
 
-#pagina-de-la-receta{
+/* estilos de la receta */
+#pagina-de-la-receta {
     background-color: #5a0001;
     color: #f1f1f1;
 }
 
-#pagina-de-la-receta header{
+#pagina-de-la-receta header {
     background-color: #222;
     color: #ffc300;
 }
@@ -64,4 +73,42 @@ footer {
 #pagina-de-la-receta ul, #pagina-de-la-receta ol {
     background-color: #333333;
     border: 2px solid #ffc300;
+}
+
+#horarios-curs {
+    background-color: #c9d8e7;
+    color: #000000;
+}
+
+#pagina-horarios {
+    background-color: #6f8194;
+}
+
+#pagina-horarios table {
+    width: 100%; 
+    border-collapse: collapse;
+    background-color: #d8d8d8; 
+    color: #000000; 
+}
+
+th {
+    background-color: #cfb23a;
+    color: #000000;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #070707; 
+    padding: 10px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #c9d8e7;
+}
+
+.fila-salida {
+    background-color: #ffc300;
+    color: #000000;
+    font-weight: bold;
 }
